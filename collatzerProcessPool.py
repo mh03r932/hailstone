@@ -64,7 +64,7 @@ def trigger_collatz_search(nums, nprocs: int):
 
     return merged_result
 
-trigger_collatz_search(range(3,63728127), 4)
+trigger_collatz_search(range(63728127,93728127), 16)
 
 #runHailstone(63728127)
 # runHailstone(670617279)
